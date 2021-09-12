@@ -2,7 +2,7 @@ package com.company;
 
 public class Volatile {
 
-    static int i;
+    static volatile int i;
 
     public static void main(String[] args) throws InterruptedException {
         new MyThreadWrite();
